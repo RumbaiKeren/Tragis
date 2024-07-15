@@ -1,6 +1,6 @@
 /**
-* Template Name: MyResume
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+* Template Name: MyBidangTanah
+* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-BidangTanah/
 * Updated: Jun 29 2024 with Bootstrap v5.3.3
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
@@ -595,29 +595,29 @@ section,
 }
 
 /*--------------------------------------------------------------
-# About Section
+# Rumbai Section
 --------------------------------------------------------------*/
-.about .content h2 {
+.Rumbai .content h2 {
   font-weight: 700;
   font-size: 24px;
 }
 
-.about .content ul {
+.Rumbai .content ul {
   list-style: none;
   padding: 0;
 }
 
-.about .content ul li {
+.Rumbai .content ul li {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
 }
 
-.about .content ul strong {
+.Rumbai .content ul strong {
   margin-right: 10px;
 }
 
-.about .content ul i {
+.Rumbai .content ul i {
   font-size: 16px;
   margin-right: 5px;
   color: var(--accent-color);
@@ -701,9 +701,9 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Resume Section
+# BidangTanah Section
 --------------------------------------------------------------*/
-.resume .resume-title {
+.BidangTanah .BidangTanah-title {
   color: var(--heading-color);
   font-size: 26px;
   font-weight: 700;
@@ -711,14 +711,14 @@ section,
   margin-bottom: 20px;
 }
 
-.resume .resume-item {
+.BidangTanah .BidangTanah-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
   border-left: 2px solid var(--accent-color);
   position: relative;
 }
 
-.resume .resume-item h4 {
+.BidangTanah .BidangTanah-item h4 {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
@@ -727,7 +727,7 @@ section,
   margin-bottom: 10px;
 }
 
-.resume .resume-item h5 {
+.BidangTanah .BidangTanah-item h5 {
   font-size: 16px;
   padding: 5px 15px;
   display: inline-block;
@@ -735,19 +735,19 @@ section,
   margin-bottom: 10px;
 }
 
-.resume .resume-item ul {
+.BidangTanah .BidangTanah-item ul {
   padding-left: 20px;
 }
 
-.resume .resume-item ul li {
+.BidangTanah .BidangTanah-item ul li {
   padding-bottom: 10px;
 }
 
-.resume .resume-item:last-child {
+.BidangTanah .BidangTanah-item:last-child {
   padding-bottom: 0;
 }
 
-.resume .resume-item::before {
+.BidangTanah .BidangTanah-item::before {
   content: "";
   position: absolute;
   width: 16px;
@@ -760,16 +760,16 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Portfolio Section
+# Ubur Section
 --------------------------------------------------------------*/
-.portfolio .portfolio-filters {
+.Ubur .Ubur-filters {
   padding: 0;
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
 }
 
-.portfolio .portfolio-filters li {
+.Ubur .Ubur-filters li {
   cursor: pointer;
   display: inline-block;
   padding: 8px 20px 10px 20px;
@@ -783,33 +783,33 @@ section,
   font-family: var(--heading-font);
 }
 
-.portfolio .portfolio-filters li:hover,
-.portfolio .portfolio-filters li.filter-active {
+.Ubur .Ubur-filters li:hover,
+.Ubur .Ubur-filters li.filter-active {
   color: var(--contrast-color);
   background-color: var(--accent-color);
 }
 
-.portfolio .portfolio-filters li:first-child {
+.Ubur .Ubur-filters li:first-child {
   margin-left: 0;
 }
 
-.portfolio .portfolio-filters li:last-child {
+.Ubur .Ubur-filters li:last-child {
   margin-right: 0;
 }
 
 @media (max-width: 575px) {
-  .portfolio .portfolio-filters li {
+  .Ubur .Ubur-filters li {
     font-size: 14px;
     margin: 0 0 10px 0;
   }
 }
 
-.portfolio .portfolio-item {
+.Ubur .Ubur-item {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio .portfolio-item .portfolio-info {
+.Ubur .Ubur-item .Ubur-info {
   opacity: 0;
   position: absolute;
   left: 12px;
@@ -821,21 +821,21 @@ section,
   padding: 15px;
 }
 
-.portfolio .portfolio-item .portfolio-info h4 {
+.Ubur .Ubur-item .Ubur-info h4 {
   font-size: 18px;
   font-weight: 600;
   padding-right: 50px;
 }
 
-.portfolio .portfolio-item .portfolio-info p {
+.Ubur .Ubur-item .Ubur-info p {
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   font-size: 14px;
   margin-bottom: 0;
   padding-right: 50px;
 }
 
-.portfolio .portfolio-item .portfolio-info .preview-link,
-.portfolio .portfolio-item .portfolio-info .details-link {
+.Ubur .Ubur-item .Ubur-info .preview-link,
+.Ubur .Ubur-item .Ubur-info .details-link {
   position: absolute;
   right: 50px;
   font-size: 24px;
@@ -845,25 +845,25 @@ section,
   line-height: 0;
 }
 
-.portfolio .portfolio-item .portfolio-info .preview-link:hover,
-.portfolio .portfolio-item .portfolio-info .details-link:hover {
+.Ubur .Ubur-item .Ubur-info .preview-link:hover,
+.Ubur .Ubur-item .Ubur-info .details-link:hover {
   color: var(--accent-color);
 }
 
-.portfolio .portfolio-item .portfolio-info .details-link {
+.Ubur .Ubur-item .Ubur-info .details-link {
   right: 14px;
   font-size: 28px;
 }
 
-.portfolio .portfolio-item:hover .portfolio-info {
+.Ubur .Ubur-item:hover .Ubur-info {
   opacity: 1;
   bottom: 0;
 }
 
 /*--------------------------------------------------------------
-# Services Section
+# Stunting Section
 --------------------------------------------------------------*/
-.services .service-item {
+.Stunting .service-item {
   background-color: var(--surface-color);
   box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
   height: 100%;
@@ -873,7 +873,7 @@ section,
   border-radius: 5px;
 }
 
-.services .service-item .icon {
+.Stunting .service-item .icon {
   margin: 0 auto;
   width: 100px;
   height: 100px;
@@ -884,108 +884,108 @@ section,
   position: relative;
 }
 
-.services .service-item .icon i {
+.Stunting .service-item .icon i {
   font-size: 36px;
   transition: 0.5s;
   position: relative;
 }
 
-.services .service-item .icon svg {
+.Stunting .service-item .icon svg {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.services .service-item .icon svg path {
+.Stunting .service-item .icon svg path {
   transition: 0.5s;
   fill: color-mix(in srgb, var(--default-color), transparent 95%);
 }
 
-.services .service-item h3 {
+.Stunting .service-item h3 {
   font-weight: 700;
   margin: 10px 0 15px 0;
   font-size: 22px;
 }
 
-.services .service-item p {
+.Stunting .service-item p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.services .service-item:hover {
+.Stunting .service-item:hover {
   box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.1);
 }
 
-.services .service-item.item-cyan i {
+.Stunting .service-item.item-cyan i {
   color: #0dcaf0;
 }
 
-.services .service-item.item-cyan:hover .icon i {
+.Stunting .service-item.item-cyan:hover .icon i {
   color: #fff;
 }
 
-.services .service-item.item-cyan:hover .icon path {
+.Stunting .service-item.item-cyan:hover .icon path {
   fill: #0dcaf0;
 }
 
-.services .service-item.item-orange i {
+.Stunting .service-item.item-orange i {
   color: #fd7e14;
 }
 
-.services .service-item.item-orange:hover .icon i {
+.Stunting .service-item.item-orange:hover .icon i {
   color: #fff;
 }
 
-.services .service-item.item-orange:hover .icon path {
+.Stunting .service-item.item-orange:hover .icon path {
   fill: #fd7e14;
 }
 
-.services .service-item.item-teal i {
+.Stunting .service-item.item-teal i {
   color: #20c997;
 }
 
-.services .service-item.item-teal:hover .icon i {
+.Stunting .service-item.item-teal:hover .icon i {
   color: #fff;
 }
 
-.services .service-item.item-teal:hover .icon path {
+.Stunting .service-item.item-teal:hover .icon path {
   fill: #20c997;
 }
 
-.services .service-item.item-red i {
+.Stunting .service-item.item-red i {
   color: #df1529;
 }
 
-.services .service-item.item-red:hover .icon i {
+.Stunting .service-item.item-red:hover .icon i {
   color: #fff;
 }
 
-.services .service-item.item-red:hover .icon path {
+.Stunting .service-item.item-red:hover .icon path {
   fill: #df1529;
 }
 
-.services .service-item.item-indigo i {
+.Stunting .service-item.item-indigo i {
   color: #6610f2;
 }
 
-.services .service-item.item-indigo:hover .icon i {
+.Stunting .service-item.item-indigo:hover .icon i {
   color: #fff;
 }
 
-.services .service-item.item-indigo:hover .icon path {
+.Stunting .service-item.item-indigo:hover .icon path {
   fill: #6610f2;
 }
 
-.services .service-item.item-pink i {
+.Stunting .service-item.item-pink i {
   color: #f3268c;
 }
 
-.services .service-item.item-pink:hover .icon i {
+.Stunting .service-item.item-pink:hover .icon i {
   color: #fff;
 }
 
-.services .service-item.item-pink:hover .icon path {
+.Stunting .service-item.item-pink:hover .icon path {
   fill: #f3268c;
 }
 
@@ -1071,13 +1071,13 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Contact Section
+# GeserSeru Section
 --------------------------------------------------------------*/
-.contact .info-item + .info-item {
+.GeserSeru .info-item + .info-item {
   margin-top: 40px;
 }
 
-.contact .info-item i {
+.GeserSeru .info-item i {
   color: var(--accent-color);
   background: color-mix(in srgb, var(--accent-color), transparent 92%);
   font-size: 20px;
@@ -1091,31 +1091,31 @@ section,
   margin-right: 15px;
 }
 
-.contact .info-item h3 {
+.GeserSeru .info-item h3 {
   padding: 0;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 5px;
 }
 
-.contact .info-item p {
+.GeserSeru .info-item p {
   padding: 0;
   margin-bottom: 0;
   font-size: 14px;
 }
 
-.contact .info-item:hover i {
+.GeserSeru .info-item:hover i {
   background: var(--accent-color);
   color: var(--contrast-color);
 }
 
-.contact .php-email-form {
+.GeserSeru .php-email-form {
   height: 100%;
 }
 
-.contact .php-email-form input[type="text"],
-.contact .php-email-form input[type="email"],
-.contact .php-email-form textarea {
+.GeserSeru .php-email-form input[type="text"],
+.GeserSeru .php-email-form input[type="email"],
+.GeserSeru .php-email-form textarea {
   font-size: 14px;
   padding: 10px 15px;
   box-shadow: none;
@@ -1129,19 +1129,19 @@ section,
   border-color: color-mix(in srgb, var(--default-color), transparent 80%);
 }
 
-.contact .php-email-form input[type="text"]:focus,
-.contact .php-email-form input[type="email"]:focus,
-.contact .php-email-form textarea:focus {
+.GeserSeru .php-email-form input[type="text"]:focus,
+.GeserSeru .php-email-form input[type="email"]:focus,
+.GeserSeru .php-email-form textarea:focus {
   border-color: var(--accent-color);
 }
 
-.contact .php-email-form input[type="text"]::placeholder,
-.contact .php-email-form input[type="email"]::placeholder,
-.contact .php-email-form textarea::placeholder {
+.GeserSeru .php-email-form input[type="text"]::placeholder,
+.GeserSeru .php-email-form input[type="email"]::placeholder,
+.GeserSeru .php-email-form textarea::placeholder {
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
-.contact .php-email-form button[type="submit"] {
+.GeserSeru .php-email-form button[type="submit"] {
   color: var(--contrast-color);
   background: var(--accent-color);
   border: 0;
@@ -1150,29 +1150,29 @@ section,
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+.GeserSeru .php-email-form button[type="submit"]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details Section
+# Ubur Details Section
 --------------------------------------------------------------*/
-.portfolio-details .portfolio-details-slider img {
+.Ubur-details .Ubur-details-slider img {
   width: 100%;
 }
 
-.portfolio-details .swiper-wrapper {
+.Ubur-details .swiper-wrapper {
   height: auto;
 }
 
-.portfolio-details .swiper-button-prev,
-.portfolio-details .swiper-button-next {
+.Ubur-details .swiper-button-prev,
+.Ubur-details .swiper-button-next {
   width: 48px;
   height: 48px;
 }
 
-.portfolio-details .swiper-button-prev:after,
-.portfolio-details .swiper-button-next:after {
+.Ubur-details .swiper-button-prev:after,
+.Ubur-details .swiper-button-next:after {
   color: rgba(255, 255, 255, 0.8);
   background-color: rgba(0, 0, 0, 0.15);
   font-size: 24px;
@@ -1185,35 +1185,35 @@ section,
   transition: 0.3s;
 }
 
-.portfolio-details .swiper-button-prev:hover:after,
-.portfolio-details .swiper-button-next:hover:after {
+.Ubur-details .swiper-button-prev:hover:after,
+.Ubur-details .swiper-button-next:hover:after {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 575px) {
-  .portfolio-details .swiper-button-prev,
-  .portfolio-details .swiper-button-next {
+  .Ubur-details .swiper-button-prev,
+  .Ubur-details .swiper-button-next {
     display: none;
   }
 }
 
-.portfolio-details .swiper-pagination {
+.Ubur-details .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.portfolio-details .swiper-pagination .swiper-pagination-bullet {
+.Ubur-details .swiper-pagination .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
   background-color: color-mix(in srgb, var(--default-color), transparent 85%);
   opacity: 1;
 }
 
-.portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
+.Ubur-details .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--accent-color);
 }
 
-.portfolio-details .portfolio-info h3 {
+.Ubur-details .Ubur-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1221,7 +1221,7 @@ section,
   position: relative;
 }
 
-.portfolio-details .portfolio-info h3:after {
+.Ubur-details .Ubur-info h3:after {
   content: "";
   position: absolute;
   display: block;
@@ -1232,26 +1232,26 @@ section,
   bottom: 0;
 }
 
-.portfolio-details .portfolio-info ul {
+.Ubur-details .Ubur-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li {
+.Ubur-details .Ubur-info ul li {
   display: flex;
   flex-direction: column;
   padding-bottom: 15px;
 }
 
-.portfolio-details .portfolio-info ul strong {
+.Ubur-details .Ubur-info ul strong {
   text-transform: uppercase;
   font-weight: 400;
   color: color-mix(in srgb, var(--default-color), transparent 50%);
   font-size: 14px;
 }
 
-.portfolio-details .portfolio-info .btn-visit {
+.Ubur-details .Ubur-info .btn-visit {
   padding: 8px 40px;
   background: var(--accent-color);
   color: var(--contrast-color);
@@ -1259,28 +1259,28 @@ section,
   transition: 0.3s;
 }
 
-.portfolio-details .portfolio-info .btn-visit:hover {
+.Ubur-details .Ubur-info .btn-visit:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
-.portfolio-details .portfolio-description h2 {
+.Ubur-details .Ubur-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-description p {
+.Ubur-details .Ubur-description p {
   padding: 0;
 }
 
-.portfolio-details .portfolio-description .testimonial-item {
+.Ubur-details .Ubur-description .testimonial-item {
   padding: 30px 30px 0 30px;
   position: relative;
   background: color-mix(in srgb, var(--default-color), transparent 97%);
   margin-bottom: 50px;
 }
 
-.portfolio-details .portfolio-description .testimonial-item .testimonial-img {
+.Ubur-details .Ubur-description .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50px;
   border: 6px solid var(--background-color);
@@ -1288,33 +1288,33 @@ section,
   margin: 0 10px 0 0;
 }
 
-.portfolio-details .portfolio-description .testimonial-item h3 {
+.Ubur-details .Ubur-description .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
   margin: 15px 0 5px 0;
   padding-top: 20px;
 }
 
-.portfolio-details .portfolio-description .testimonial-item h4 {
+.Ubur-details .Ubur-description .testimonial-item h4 {
   font-size: 14px;
   color: #6c757d;
   margin: 0;
 }
 
-.portfolio-details .portfolio-description .testimonial-item .quote-icon-left,
-.portfolio-details .portfolio-description .testimonial-item .quote-icon-right {
+.Ubur-details .Ubur-description .testimonial-item .quote-icon-left,
+.Ubur-details .Ubur-description .testimonial-item .quote-icon-right {
   color: color-mix(in srgb, var(--accent-color), transparent 50%);
   font-size: 26px;
   line-height: 0;
 }
 
-.portfolio-details .portfolio-description .testimonial-item .quote-icon-left {
+.Ubur-details .Ubur-description .testimonial-item .quote-icon-left {
   display: inline-block;
   left: -5px;
   position: relative;
 }
 
-.portfolio-details .portfolio-description .testimonial-item .quote-icon-right {
+.Ubur-details .Ubur-description .testimonial-item .quote-icon-right {
   display: inline-block;
   right: -5px;
   position: relative;
@@ -1322,7 +1322,7 @@ section,
   transform: scale(-1, -1);
 }
 
-.portfolio-details .portfolio-description .testimonial-item p {
+.Ubur-details .Ubur-description .testimonial-item p {
   font-style: italic;
   margin: 0 0 15px 0 0 0;
   padding: 0;
@@ -1349,7 +1349,7 @@ section,
   margin-bottom: 15px;
 }
 
-.service-details .services-list a {
+.service-details .Stunting-list a {
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   background-color: color-mix(in srgb, var(--default-color), transparent 96%);
   display: flex;
@@ -1359,26 +1359,26 @@ section,
   transition: 0.3s;
 }
 
-.service-details .services-list a:first-child {
+.service-details .Stunting-list a:first-child {
   margin-top: 0;
 }
 
-.service-details .services-list a i {
+.service-details .Stunting-list a i {
   font-size: 16px;
   margin-right: 8px;
   color: var(--accent-color);
 }
 
-.service-details .services-list a.active {
+.service-details .Stunting-list a.active {
   color: var(--contrast-color);
   background-color: var(--accent-color);
 }
 
-.service-details .services-list a.active i {
+.service-details .Stunting-list a.active i {
   color: var(--contrast-color);
 }
 
-.service-details .services-list a:hover {
+.service-details .Stunting-list a:hover {
   background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
   color: var(--accent-color);
 }
@@ -1428,7 +1428,7 @@ section,
   color: var(--contrast-color);
 }
 
-.service-details .services-img {
+.service-details .Stunting-img {
   margin-bottom: 20px;
 }
 
